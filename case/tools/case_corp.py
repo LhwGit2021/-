@@ -26,8 +26,6 @@ class TestCorpTag:
         print(r)
         assert r.json()["errcode"] == 0
 
-    def test_demo(self):
-        pass
 
     
     
