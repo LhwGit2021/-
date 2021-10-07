@@ -12,7 +12,7 @@ def getId():
 def get_Id():
     inter = QY_interface()
     r = inter.tag_select()
-    id = jsonpath(r.json(), "$..[?(@.name=='🐍')]")[0]['id']
+    id = jsonpath(r.json(), "$..[?(@.name=='蛤蟆')]")[0]['id']
     return id
 
 
